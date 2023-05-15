@@ -7,4 +7,4 @@ This repository is just to show the general logic and not intended to be cloned 
 this is the endpoint called during sign up from the client. 
 
 # 2. submitVerificationCode
-after sign up, the client is invited to check their inbox to enter the verification code. 
+second endpoint to be called after sign up, when the client is invited to check their inbox to enter the verification code. 
