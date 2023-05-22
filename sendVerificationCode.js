@@ -19,9 +19,6 @@ const sendVerificationCode = async (options) => {
         text: code.toString() + " is your verification code",
         html,
       })
-      .catch((err) => {
-        console.error(err);
-      });
   } catch (err) {
     console.log("Couldn't send email: ", err);
   }
